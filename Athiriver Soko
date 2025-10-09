@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel’s Creative Hub</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 20px;">
+
+    <!-- HEADER SECTION -->
+    <header>
+        <h1>Daniel’s Creative Hub</h1>
+        <p>Welcome to my personal website — a space where creativity meets innovation. Explore my services, projects, and tutorials that help you grow and create.</p>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <a href="#services">Services</a> |
+        <a href="#showcase">Showcase</a> |
+        <a href="#tutorial">Tutorial</a> |
+        <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+    </nav>
+    <hr>
+
+    <!-- MAIN CONTENT -->
+    <main>
+
+        <!-- SERVICES SECTION -->
+        <section id="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Web Design & Development</li>
+                <li>Graphic Design</li>
+                <li>Social Media Management</li>
+                <li>Content Creation</li>
+                <li>Digital Marketing Strategy</li>
+            </ul>
+            <aside>
+                <p><strong>Tip:</strong> Our creative packages are customizable to fit your needs!</p>
+            </aside>
+        </section>
+
+        <hr>
+
+        <!-- PRODUCT/SERVICE SHOWCASE TABLE -->
+        <section id="showcase">
+            <h2>Product & Service Showcase</h2>
+            <table border="1" style="border-collapse: collapse; width: 60%;">
+                <caption>Our Top Services</caption>
+                <tr>
+                    <th>Service Name</th>
+                    <th>Price</th>
+                    <th>Rating</th>
+                </tr>
+                <tr>
+                    <td>Web Design</td>
+                    <td>$300</td>
+                    <td>⭐⭐⭐⭐⭐</td>
+                </tr>
+                <tr>
+                    <td>Graphic Design</td>
+                    <td>$150</td>
+                    <td>⭐⭐⭐⭐</td>
+                </tr>
+                <tr>
+                    <td>Social Media Management</td>
+                    <td>$200</td>
+                    <td>⭐⭐⭐⭐⭐</td>
+                </tr>
+            </table>
+        </section>
+
+        <hr>
+
+        <!-- MEDIA SECTION -->
+        <section>
+            <h2>Our Work in Action</h2>
+            <article>
+                <img src="https://via.placeholder.com/400x250" alt="Example of our creative design work" width="400">
+                <p>This image shows one of our latest creative projects for a client’s brand redesign.</p>
+            </article>
+        </section>
+
+        <hr>
+
+        <!-- VIDEO SECTION -->
+        <section id="tutorial">
+            <h2>Watch Our Tutorial</h2>
+            <video src="tutorial.mp4" width="500" controls>
+                Your browser does not support the video tag.
+            </video>
+            <p>This short video walks you through how we design websites from concept to launch.</p>
+        </section>
+
+    </main>
+
+    <hr>
+
+    <!-- FOOTER SECTION -->
+    <footer>
+        <p>Contact us: <a href="mailto:info@danielhub.com">info@danielhub.com</a></p>
+        <p>&copy; 2025 Daniel’s Creative Hub. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
