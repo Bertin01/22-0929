@@ -1,1 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Car Tables</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f9fc;
+    margin: 30px;
+  }
+
+  h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #002b5c;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  }
+
+  th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+
+  th {
+    background-color: #004080;
+    color: white;
+    font-weight: bold;
+  }
+
+  /* Table 1 column colors */
+  .table1 th:nth-child(1), .table1 td:nth-child(1) { background-color: #cce0ff; }
+  .table1 th:nth-child(2), .table1 td:nth-child(2) { background-color: #e6f0ff; }
+  .table1 th:nth-child(3), .table1 td:nth-child(3) { background-color: #b3d1ff; }
+  .table1 th:nth-child(4), .table1 td:nth-child(4) { background-color: #99c2ff; }
+  .table1 th:nth-child(5), .table1 td:nth-child(5) { background-color: #80b3ff; }
+
+  /* Table 2 column colors */
+  .table2 th:nth-child(1), .table2 td:nth-child(1) { background-color: #ffedcc; }
+  .table2 th:nth-child(2), .table2 td:nth-child(2) { background-color: #fff2e6; }
+  .table2 th:nth-child(3), .table2 td:nth-child(3) { background-color: #ffe0b3; }
+  .table2 th:nth-child(4), .table2 td:nth-child(4) { background-color: #ffd480; }
+  .table2 th:nth-child(5), .table2 td:nth-child(5) { background-color: #ffc966; }
+</style>
+</head>
+<body>
+
+<h2>Table 1: Car Prices</h2>
+<table class="table1">
+  <tr>
+    <th>Brand</th>
+    <th>Model</th>
+    <th>Year</th>
+    <th>Price ($)</th>
+    <th>Status</th>
+  </tr>
+  <tr>
+    <td>Mazda</td>
+    <td>Mazda CX-5</td>
+    <td>2022</td>
+    <td>$28,500</td>
+    <td>Available</td>
+  </tr>
+  <tr>
+    <td>Subaru</td>
+    <td>Forester</td>
+    <td>2023</td>
+    <td>$32,800</td>
+    <td>Available</td>
+  </tr>
+  <tr>
+    <td>BMW</td>
+    <td>BMW X3</td>
+    <td>2021</td>
+    <td>$44,000</td>
+    <td>Sold</td>
+  </tr>
+</table>
+
+<h2>Table 2: Dealerships</h2>
+<table class="table2">
+  <tr>
+    <th>Dealer</th>
+    <th>Location</th>
+    <th>Contact</th>
+    <th>Brand</th>
+    <th>Rating</th>
+  </tr>
+  <tr>
+    <td>AutoHub Motors</td>
+    <td>Nairobi</td>
+    <td>+254 712 345 678</td>
+    <td>Mazda</td>
+    <td>★★★★★</td>
+  </tr>
+  <tr>
+    <td>SubaCar Dealers</td>
+    <td>Mombasa</td>
+    <td>+254 722 987 654</td>
+    <td>Subaru</td>
+    <td>★★★★☆</td>
+  </tr>
+  <tr>
+    <td>BMW Elite Autos</td>
+    <td>Kisumu</td>
+    <td>+254 733 555 111</td>
+    <td>BMW</td>
+    <td>★★★★★</td>
+  </tr>
+</table>
+
+</body>
+</html>
+
 
